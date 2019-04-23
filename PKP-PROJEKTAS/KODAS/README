@@ -8,6 +8,6 @@ NAUDOJIMOSI INSTRUKCIJA
       pip install bs4
 (Šiuo žingsniu yra įrašomos papildomos PYTHON bibliotekos, kurios reikalingos šiam skriptui)
 4. ATSIDARYTI PYTHON
-5. ATSIDARYTI Formatuotojas.py failą ir jį paleisti (F5)
+5. ATSIDARYTI Formatuotojas.py FAILĄ IR JĮ PALEISTI (F5)
 6. ĮVESTI NORIMO PUSLAPIO ADRESĄ (URL)
 7. REIKIAMAS HTML KODAS SUGENERUOTAS IR ĮRAŠYTAS Į kodas.txt FAILĄ, KURIS ATSIRANDA ŠALIA Formatuotojas.py.
