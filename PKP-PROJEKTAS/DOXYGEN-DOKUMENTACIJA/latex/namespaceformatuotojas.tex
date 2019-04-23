@@ -1,0 +1,79 @@
+\hypertarget{namespaceformatuotojas}{}\section{formatuotojas Namespace Reference}
+\label{namespaceformatuotojas}\index{formatuotojas@{formatuotojas}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespaceformatuotojas_adb6483a5f4a0e88c4da5076c2787e7ad}{extract\+\_\+site}} (url)
+\item 
+def \mbox{\hyperlink{namespaceformatuotojas_a05a9688bfbecdf2e3fa1ad7a2b9158c3}{write\+\_\+to\+\_\+file}} (Lines)
+\item 
+def \mbox{\hyperlink{namespaceformatuotojas_a543e7e6d2cd2505fee71c2d8b1552ffd}{format\+\_\+file}} (info, url)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespaceformatuotojas_a7d88bd9d1c9f4446e5bca414b6d3faa6}\label{namespaceformatuotojas_a7d88bd9d1c9f4446e5bca414b6d3faa6}} 
+{\bfseries url} = input()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Formatuotojas - tai skriptas, kuris nuparsina nurodyto mii.lt puslapi
+nurparsinta puslapio HTML suformatuoja norima tvarka ir ji isveda i tekstini faila
+\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespaceformatuotojas_adb6483a5f4a0e88c4da5076c2787e7ad}\label{namespaceformatuotojas_adb6483a5f4a0e88c4da5076c2787e7ad}} 
+\index{formatuotojas@{formatuotojas}!extract\_site@{extract\_site}}
+\index{extract\_site@{extract\_site}!formatuotojas@{formatuotojas}}
+\subsubsection{\texorpdfstring{extract\_site()}{extract\_site()}}
+{\footnotesize\ttfamily def formatuotojas.\+extract\+\_\+site (\begin{DoxyParamCaption}\item[{}]{url }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Funkcija, kuri nuparsina HTML is nurodyto URL
+
+Gauta url is input atidaro ir nuparsina jo HTML
+
+Parameters
+----------
+url
+Norimo puslapio URL
+
+Returns
+-------
+info
+Grazina nuparsintus norimus HTML tag'us
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespaceformatuotojas_a543e7e6d2cd2505fee71c2d8b1552ffd}\label{namespaceformatuotojas_a543e7e6d2cd2505fee71c2d8b1552ffd}} 
+\index{formatuotojas@{formatuotojas}!format\_file@{format\_file}}
+\index{format\_file@{format\_file}!formatuotojas@{formatuotojas}}
+\subsubsection{\texorpdfstring{format\_file()}{format\_file()}}
+{\footnotesize\ttfamily def formatuotojas.\+format\+\_\+file (\begin{DoxyParamCaption}\item[{}]{info,  }\item[{}]{url }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Funkcija, kuri suformatuoja nuparsina HTML
+
+Suformatuoja norima tvarka nuparsinta HTML is gauto URL
+
+Parameters
+----------
+url
+Norimo puslapio URL
+info
+Nuparsinti reikiami HTML tag'ai      
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespaceformatuotojas_a05a9688bfbecdf2e3fa1ad7a2b9158c3}\label{namespaceformatuotojas_a05a9688bfbecdf2e3fa1ad7a2b9158c3}} 
+\index{formatuotojas@{formatuotojas}!write\_to\_file@{write\_to\_file}}
+\index{write\_to\_file@{write\_to\_file}!formatuotojas@{formatuotojas}}
+\subsubsection{\texorpdfstring{write\_to\_file()}{write\_to\_file()}}
+{\footnotesize\ttfamily def formatuotojas.\+write\+\_\+to\+\_\+file (\begin{DoxyParamCaption}\item[{}]{Lines }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Funkcija, kuri suraso suformatuota HTML i faila
+
+Suformatuota HTML suraso i faila
+
+Parameters
+----------
+Lines
+Suformatuotas HTML
+\end{DoxyVerb}
+ 
