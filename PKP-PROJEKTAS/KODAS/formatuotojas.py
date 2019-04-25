@@ -56,7 +56,7 @@ def write_to_file(Lines):
         Lines
         Suformatuotas HTML
         """
-        file_obj=open("kodas.txt",'a+')
+        file_obj=open("kodas.txt",'a+',encoding='utf8')
         file_obj.writelines(Lines)
         file_obj.close()
 
